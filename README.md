@@ -16,7 +16,7 @@ Notre projet ayant pour but de créer une kali like avec outils de rapports.
   - Github
 - Liste des étapes à atteindre :
   - Outil gestion de projet
-  - https://trello.com  ?
+    - https://trello.com  ?
   - Voir quels outils installer etc…
   - Propositions :
     - exemple :  https://websetnet.net/fr/21-meilleurs-outils-Linux-kali-pour-le-piratage-et-les-tests-d%27intrusion/
