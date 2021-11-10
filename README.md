@@ -1,5 +1,5 @@
 # Projet-SSI
-Notre projet ayant pour but de créer une machine kali like avec outils de rapports.
+Notre projet ayant pour but de créer une kali like avec outils de rapports.
 # Cahier des charges
 - Nom du projet
   - propositions :
