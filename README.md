@@ -3,6 +3,7 @@ Notre projet ayant pour but de créer une kali like avec outils de rapports.
 # Cahier des charges
 - Nom du projet
   - propositions :
+    - MDL Tool
     - Turbo Mega Hack Machine (TMHM)
     - autres ?
 - Présentation très simple du projet et de quoi il consiste
