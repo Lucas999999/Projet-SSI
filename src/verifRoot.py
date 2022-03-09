@@ -3,4 +3,5 @@ import os
 
 class VerifRoot:
     def isRoot():
-        print(os.geteuid())
+        userId = os.geteuid()
+        return userId == 0
