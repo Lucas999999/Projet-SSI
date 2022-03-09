@@ -5,7 +5,7 @@ from src.verifRoot import VerifRoot
 def main():
     art.randomArt()
     testConnection.checkConnection()
-    print(VerifRoot.isRoot())
+    VerifRoot.testRoot()
     menu = {"00":"full",
     "1":"basique",
     "2":"catégories",
