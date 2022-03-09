@@ -1,5 +1,4 @@
 import os
-from typing_extensions import Self
 from .TextColor import TextColor
 
 
