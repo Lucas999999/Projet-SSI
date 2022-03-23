@@ -9,7 +9,7 @@ class ProgramList:
 
     def Install(self,index):
         # self.GetProgram(index).Install()
-        print(self.GetProgram(index).toString())
+        self.GetProgram(index).Install()
 
     list = [program("nmap","mapping réseau","??",["apt-get install -y nmap"],"informations","nmap --version"),
     program("netdiscorver","mapping réseau","??",["apt-get install -y netdiscover"],"informations","netdiscover --version"),
