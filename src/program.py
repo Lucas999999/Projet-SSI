@@ -2,7 +2,7 @@ import os
 
 
 class program:
-    def __init__(self,name,desc,size,install,category,verif,dependances):
+    def __init__(self,name,desc,size,install,category,verif,dependances=None):
         self.name = name
         self.desc = desc
         self.size = size
