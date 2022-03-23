@@ -5,7 +5,7 @@ class ProgramList:
         return
 
     def GetProgram(self, index):
-        return list[index]
+        return self.list[index]
 
     def Install(self,index):
         # self.GetProgram(index).Install()
