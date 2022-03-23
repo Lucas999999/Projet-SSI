@@ -4,7 +4,7 @@ class ProgramList:
     def __init__(self):
         return
 
-    def GetProgram(index):
+    def GetProgram(self, index):
         return list[index]
 
     def Install(self,index):
