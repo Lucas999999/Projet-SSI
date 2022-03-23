@@ -4,7 +4,7 @@ from src.testConnexion import testConnection
 from src.arts import art
 from src.programList import ProgramList
 from src.verifRoot import VerifRoot
-from src.menu import Menus
+# from src.menu import Menu
 
 def main():
     art.randomArt()
@@ -15,8 +15,8 @@ def main():
         print(f"{TextColor.CBOLD}{TextColor.CBLINK}{TextColor.CRED}[WARNING]{TextColor.CEND}{TextColor.CRED} fermeture du programme ...{TextColor.CEND}")
         sys.exit(2)
     print("  ========== Menu ==========")
-    for action in Menus.mainMenu:
-        print(f"          {action} : {Menus.mainMenu[action]}")
+    # for action in Menus.mainMenu:
+    #     print(f"          {action} : {Menus.mainMenu[action]}")
 
 def installs():
     for program in ProgramList.list:
