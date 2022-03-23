@@ -6,10 +6,12 @@ class Menu:
     # def componentToStringFormat(self, component, len)
 
     def toString(self):
-        strRet = f"---------------{self.name}---------------"
+        strRet = f"{self.name}"
+        lenMax = 0
         compteur = 0
 
         for number, component in enumerate(self.components):
             compteur = number
-            strRet+= component.name
+            if(lenMax< len(f"{component.name} {number}")):
+                lenMax = len(f"{component.name} {number}")
 

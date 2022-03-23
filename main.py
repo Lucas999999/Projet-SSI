@@ -1,9 +1,11 @@
 import sys
 from src.TextColor import TextColor
+from src.menu import Menu
 from src.testConnexion import testConnection
 from src.arts import art
 from src.programList import ProgramList
 from src.verifRoot import VerifRoot
+from src.menuComponent import MenuComponent
 # from src.menu import Menu
 
 def main():
@@ -23,9 +25,8 @@ def installs():
         print(f"{program.category} --- {program.name}, {program.size}")
 
 def test():
-    listPrograms = ProgramList()
-    testIndex = input("quel index à installer: ")
-    listPrograms.Install(int(testIndex))
+    testComp = MenuComponent("test", "???", "je sais pas")
+    print(testComp.toString(len(testComp.name),1))
 
 
 main()
