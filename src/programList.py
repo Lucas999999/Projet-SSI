@@ -1,8 +1,8 @@
 from .program import program
 #todo: ajouter dépendences
 class ProgramList:
-    def install(index):
-        list[index].install()
+    def Install(index):
+        list[index].Install()
 
     list = [program("nmap","mapping réseau","??",["apt-get install -y nmap"],"informations","nmap --version"),
     program("netdiscorver","mapping réseau","??",["apt-get install -y netdiscover"],"informations","netdiscover --version"),
