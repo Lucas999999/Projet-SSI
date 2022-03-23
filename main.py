@@ -2,7 +2,7 @@ import sys
 from src.TextColor import TextColor
 from src.testConnexion import testConnection
 from src.arts import art
-from src.programList import ProgramList
+from src.programList import ProgramList as ProgramList
 from src.verifRoot import VerifRoot
 # from src.menu import Menu
 

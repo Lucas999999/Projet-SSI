@@ -1,10 +1,10 @@
 from .program import program
 #todo: ajouter dépendences
 class ProgramList:
-    def GetProgram(self,index):
+    def GetProgram(index):
         return list[index]
 
-    def Install(self, index):
+    def Install(self,index):
         # self.GetProgram(index).Install()
         print(self.GetProgram(index).toString())
 
