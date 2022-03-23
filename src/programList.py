@@ -1,6 +1,9 @@
 from .program import program
 #todo: ajouter dépendences
 class ProgramList:
+    def __init__(self):
+        return
+
     def GetProgram(index):
         return list[index]
 

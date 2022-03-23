@@ -2,7 +2,7 @@ import sys
 from src.TextColor import TextColor
 from src.testConnexion import testConnection
 from src.arts import art
-from src.programList import ProgramList as ProgramList
+from src.programList import ProgramList
 from src.verifRoot import VerifRoot
 # from src.menu import Menu
 
@@ -23,8 +23,9 @@ def installs():
         print(f"{program.category} --- {program.name}, {program.size}")
 
 def test():
+    listPrograms = ProgramList()
     testIndex = input("quel index à installer: ")
-    ProgramList.Install(int(testIndex))
+    listPrograms.Install(int(testIndex))
 
 
 main()
