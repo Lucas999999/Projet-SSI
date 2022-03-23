@@ -1,8 +1,12 @@
+from webbrowser import get
 from .program import program
 #todo: ajouter dépendences
 class ProgramList:
-    def Install(index):
-        list[index].Install()
+    def GetProgram(self,index):
+        return list[index]
+
+    def Install(self, index):
+        self.GetProgram(index).Install()
 
     list = [program("nmap","mapping réseau","??",["apt-get install -y nmap"],"informations","nmap --version"),
     program("netdiscorver","mapping réseau","??",["apt-get install -y netdiscover"],"informations","netdiscover --version"),
