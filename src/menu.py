@@ -3,7 +3,7 @@ class Menu:
         self.name = name
         self.components = components
 
-    def componentToStringFormat(self, component, len)
+    # def componentToStringFormat(self, component, len)
 
     def toString(self):
         strRet = f"---------------{self.name}---------------"
