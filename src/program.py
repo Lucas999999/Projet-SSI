@@ -23,4 +23,5 @@ class program:
     def Install(self):
         for commande in self.install:
             errCode = os.system(commande)
+            print(errCode)
 

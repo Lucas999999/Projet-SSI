@@ -22,8 +22,22 @@ def installs():
     for program in ProgramList.list:
         print(f"{program.category} --- {program.name}, {program.size}")
 
-
+def test():
+    testIndex = input("quel index à installer: ")
+    ProgramList.list[testIndex].install()
 
 
 main()
 installs()
+test()
+
+
+
+
+
+
+
+
+
+
+# :alembic:

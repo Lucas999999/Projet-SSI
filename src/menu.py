@@ -1,6 +1,3 @@
-from msilib.schema import Component
-
-
 class Menu:
     def __init__(self,name,components,exitMethod,returnMethod):
         self.name = name
@@ -14,4 +11,5 @@ class Menu:
 
         for number, component in enumerate(self.components):
             compteur = number
-            strRet+=
+            strRet+= component.name
+
