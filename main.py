@@ -24,7 +24,7 @@ def installs():
 
 def test():
     testIndex = input("quel index à installer: ")
-    ProgramList.list[int(testIndex)].install()
+    ProgramList.install(int(testIndex))
 
 
 main()

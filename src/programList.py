@@ -1,17 +1,20 @@
 from .program import program
 #todo: ajouter dépendences
 class ProgramList:
-    list = [program("nmap","mapping réseau","??",["apt-get install nmap"],"informations","nmap --version"),
-    program("netdiscorver","mapping réseau","??",["apt-get install netdiscover"],"informations","netdiscover --version"),
-    program("unix-privesc-check","recherche malconfigurations","??",["apt-get install unix-privesc-check"],"analyse vuln","??"),
-    program("nikto","web server scanner","??",["apt-get install nikto"],"analyse vuln","??"),
+    def install(index):
+        list[index].install()
+
+    list = [program("nmap","mapping réseau","??",["apt-get install -y nmap"],"informations","nmap --version"),
+    program("netdiscorver","mapping réseau","??",["apt-get install -y netdiscover"],"informations","netdiscover --version"),
+    program("unix-privesc-check","recherche malconfigurations","??",["apt-get install -y unix-privesc-check"],"analyse vuln","??"),
+    program("nikto","web server scanner","??",["apt-get install -y nikto"],"analyse vuln","??"),
     ## burpsuite docker ?
-    program("sqlmap","mappage bdd","??",["apt update","apt install snapd","snap install core","snap install sqlmap"],"web-app","??"),
+    program("sqlmap","mappage bdd","??",["apt update","apt install -y snapd","snap install core","snap install sqlmap"],"web-app","??"),
     program("wfuzz","fuzz payload","??",["pip install wfuzz"],"web-app","??"),
     program("SQLite database browser","edit database files","??",["snap install sqlitebrowser"],"evaluation database","??"),
     program("john","attaque mots de passe","??",["snap install john-the-ripper"],"attaque mot de passe","??"),
     program("medusa","password attack","??",["apt-get install -y medusa"],"attaque mot de passe","??"),
-    program("wordlist","password attack","??",["apt install wordlists"],"attaque mot de passe","??"),
+    program("wordlist","password attack","??",["apt install -y wordlists"],"attaque mot de passe","??"),
     program("hydra","password attack","??",["apt-get install hydra-gtk"],"attaque mot de passe","??"),
     program("hashcat","password attack","??",["apt-get install hashcat"],"attaque mot de passe","??"),
     program("patator","password attack","??",["apt-get -y install patator"],"attaque mot de passe","??"),
