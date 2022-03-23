@@ -11,6 +11,9 @@ class program:
         self.verif = verif
         self.dependences = dependances
 
+    def toString(self):
+        return f"{self.name}, {self.desc}"
+
     def  InstallFull(self):
         if(self.dependences != None):
             self.InstallDependances()
