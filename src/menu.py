@@ -1,4 +1,3 @@
-from socket import NI_NUMERICSERV
 from .menuComponent import MenuComponent
 
 class Menu:

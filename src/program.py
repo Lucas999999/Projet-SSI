@@ -28,3 +28,6 @@ class program:
             errCode = os.system(commande)
             print(errCode)
 
+    def uninstall(self):
+        print("test")
+        # TODO

@@ -6,6 +6,7 @@ from src.arts import art
 from src.programList import ProgramList
 from src.verifRoot import VerifRoot
 from src.menuComponent import MenuComponent
+from src.menuList import MenuList
 # from src.menu import Menu
 
 def main():
@@ -16,19 +17,13 @@ def main():
     if VerifRoot.testRoot():
         print(f"{TextColor.CBOLD}{TextColor.CBLINK}{TextColor.CRED}[WARNING]{TextColor.CEND}{TextColor.CRED} fermeture du programme ...{TextColor.CEND}")
         sys.exit(2)
-    print("  ========== Menu ==========")
-    # for action in Menus.mainMenu:
-    #     print(f"          {action} : {Menus.mainMenu[action]}")
 
 def installs():
     for program in ProgramList.list:
         print(f"{program.category} --- {program.name}, {program.size}")
 
 def test():
-    testComp = MenuComponent("test", "???", "je sais pas")
-    menuTest = Menu("test", [testComp, MenuComponent("tengbjvkst2", "???", "je sais pas"), MenuComponent("test31651655", "???", "je sais pas"), MenuComponent("test4", "???", "je sais pas")])
-    print(testComp.toString(len(testComp.name),1))
-    menuTest.toString()
+    MenuList.mainMenu.toString()
 
 
 main()
