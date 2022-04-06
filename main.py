@@ -26,7 +26,7 @@ def installs():
 
 def test():
     testComp = MenuComponent("test", "???", "je sais pas")
-    menuTest = Menu("test", [testComp, MenuComponent("test2", "???", "je sais pas"), MenuComponent("test3", "???", "je sais pas"), MenuComponent("test4", "???", "je sais pas")])
+    menuTest = Menu("test", [testComp, MenuComponent("tengbjvkst2", "???", "je sais pas"), MenuComponent("test31651655", "???", "je sais pas"), MenuComponent("test4", "???", "je sais pas")])
     print(testComp.toString(len(testComp.name),1))
     menuTest.toString()
 
