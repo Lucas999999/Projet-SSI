@@ -7,6 +7,6 @@ class MenuComponent:
     def toString(self, lenMin, nbr):
         strRet = f"{self.name} {nbr}"
         while(len(strRet) < lenMin):
-            strRet = strRet[0:len(self.name)] = " " + strRet[len(self.name):]
+            strRet = strRet[0:len(self.name)] + " " + strRet[len(self.name):]
         return f"|{strRet}|"
     
