@@ -1,3 +1,5 @@
+import types
+
 class MenuComponent:
     def __init__(self,name,action,description):
         self.name = name
@@ -11,4 +13,5 @@ class MenuComponent:
         return f"|{strRet}|"
     
     def execute(self):
-        self.action()
+        print(type(self.action) == types.functionType )
+        # self.action()

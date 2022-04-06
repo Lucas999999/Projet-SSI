@@ -23,7 +23,8 @@ def installs():
         print(f"{program.category} --- {program.name}, {program.size}")
 
 def test():
-    MenuList.mainMenu.toString()
+    MenuList.mainMenu.execute()
+    # MenuList.mainMenu.toString()
 
 
 main()
