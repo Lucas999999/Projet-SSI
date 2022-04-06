@@ -28,6 +28,7 @@ class Menu:
                 strRet+="-"
             else:
                 strRet = "-"+strRet
+            compteur+=1
         return f"+{strRet}+"
 
     def execute(self):
