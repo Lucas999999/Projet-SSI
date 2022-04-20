@@ -1,4 +1,3 @@
-from distutils.util import execute
 from .menuComponent import MenuComponent
 
 class Menu:
