@@ -24,8 +24,7 @@ def installs():
 
 def test():
     MenuList.mainMenu.toString()
-    testInt = int(input("quel choix"))
-    MenuList.mainMenu.execute(testInt)
+    MenuList.mainMenu.execute()
 
 
 main()

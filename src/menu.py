@@ -1,3 +1,4 @@
+from distutils.util import execute
 from .menuComponent import MenuComponent
 
 class Menu:
@@ -30,6 +31,12 @@ class Menu:
             compteur+=1
         return f"+{strRet}+"
 
-    def execute(self,testInt):
-        print("test")
-        self.components[testInt].execute()
+    def execute(self):
+        try:
+            userChoice = int(input("que voulez vous faire ? :"))
+        except:
+            execute()
+        self.execute(userChoice)
+
+    def execute(self, userChoice):
+        self.components[userChoice].execute()
