@@ -23,7 +23,6 @@ def installs():
         print(f"{program.category} --- {program.name}, {program.size}")
 
 def test():
-    MenuList.mainMenu.execute()
     MenuList.mainMenu.toString()
     testInt = int(input("quel choix"))
     MenuList[testInt].mainMenu.execute(testInt)
