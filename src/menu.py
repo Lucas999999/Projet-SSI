@@ -32,11 +32,12 @@ class Menu:
 
     def execute(self, userChoice):
         if(userChoice < 0 or len(self.components) >= userChoice):
-            print(len(self.components))
             try:
                 userChoice = int(input("que voulez vous faire ? :"))
             except:
                 self.execute(-1)
+            print(len(self.components))
+            print(userChoice)
             self.execute(userChoice)
         else:
             self.components[userChoice].execute()
