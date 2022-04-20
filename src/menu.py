@@ -8,7 +8,7 @@ class Menu:
     # def componentToStringFormat(self, component, len)
 
     def toString(self):
-        strRet = f"{self.name}"
+        strRet = ""
         lenMax = len(self.name)
 
         for number, component in enumerate(self.components):
