@@ -31,7 +31,7 @@ class Menu:
         return f"+{strRet}+"
 
     def execute(self, userChoice):
-        if(userChoice == -1 or self.components.length >= userChoice):
+        if(userChoice < 0 or len(self.components) >= userChoice):
             try:
                 userChoice = int(input("que voulez vous faire ? :"))
             except:
