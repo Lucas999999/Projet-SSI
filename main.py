@@ -24,7 +24,7 @@ def installs():
 
 def test():
     MenuList.mainMenu.toString()
-    MenuList.mainMenu.execute()
+    MenuList.mainMenu.execute(-1)
 
 
 main()
