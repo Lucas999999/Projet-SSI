@@ -5,7 +5,7 @@ class MenuList:
     def testMenu(testText):
         print(testText)
 
-    mainMenu = Menu("MENU", [MenuComponent("Installer", print("a"), "Installations"),
+    mainMenu = Menu("MENU", [MenuComponent("Installer", testMenu, "Installations"),
     MenuComponent("Désinstaller", testMenu, "Désinstallations"),
     MenuComponent("Vérifier", testMenu, "Vérifications"),
     MenuComponent("Réparer", testMenu, "Réparations"),
