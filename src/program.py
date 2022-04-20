@@ -2,7 +2,7 @@ import os
 
 
 class program:
-    def __init__(self,name,desc,size,install,category,verif,dependances=None):
+    def __init__(self,name,desc,size,install,uninstallMethod,category,verif,dependances=None):
         self.name = name
         self.desc = desc
         self.size = size
@@ -10,6 +10,7 @@ class program:
         self.category = category
         self.verif = verif
         self.dependences = dependances
+        self.uninstallMethod = uninstallMethod
 
     def toString(self):
         return f"{self.name}, {self.desc}"
@@ -29,5 +30,6 @@ class program:
             print(errCode)
 
     def uninstall(self):
-        print("test")
-        # TODO
+        for commande in self.uninstallMethod:
+            errCode = os.system(commande)
+            print(errCode)
