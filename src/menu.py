@@ -30,5 +30,6 @@ class Menu:
             compteur+=1
         return f"+{strRet}+"
 
-    def execute(self):
+    def execute(self,testInt):
         print("test")
+        self.components[testInt].execute()
