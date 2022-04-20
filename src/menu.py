@@ -14,10 +14,11 @@ class Menu:
         for number, component in enumerate(self.components):
             if(lenMax< len(f"{component.name} {number}")):
                 lenMax = len(f"{component.name} {number}")
-        print(self.nameToString(lenMax))
+        strRet += self.nameToString(lenMax) + "\n"
         for number, component in enumerate(self.components):
-            print(component.toString(lenMax, number))
-        print(f"+{'-'*lenMax}+")
+            strRet += component.toString(lenMax, number) + "\n"
+        strRet += f"+{'-'*lenMax}+\n"
+        return strRet
 
     def nameToString(self,lenMin):
         strRet = self.name
@@ -32,12 +33,11 @@ class Menu:
 
     def execute(self, userChoice):
         if(userChoice < 0 or len(self.components) < userChoice):
+            print(self.toString())
             try:
                 userChoice = int(input("que voulez vous faire ? :"))
             except:
                 self.execute(-1)
-            print(len(self.components))
-            print(userChoice)
             self.execute(userChoice)
         else:
             self.components[userChoice].execute()
