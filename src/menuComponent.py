@@ -10,6 +10,5 @@ class MenuComponent:
             strRet = strRet[0:len(self.name)] + " " + strRet[len(self.name):]
         return f"|{strRet}|"
     
-    def execute(self):
-        print(self.action(self.name))
-        # self.action()
+    def execute(self,arg = None):
+        self.action(arg)

@@ -31,7 +31,7 @@ class Menu:
             compteur+=1
         return f"+{strRet}+"
 
-    def execute(self, userChoice):
+    def execute(self, userChoice, arg=None):
         if(userChoice < 0 or len(self.components) < userChoice):
             print(self.toString())
             try:
@@ -40,4 +40,4 @@ class Menu:
                 self.execute(-1)
             self.execute(userChoice)
         else:
-            self.components[userChoice].execute()
+            self.components[userChoice].execute(arg)

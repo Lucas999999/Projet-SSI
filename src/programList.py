@@ -70,3 +70,13 @@ class ProgramList:
     ## navigation web
     # tor 
     ]
+
+    def installAll(category):
+        if category == None:
+            for program in ProgramList:
+                program.install()
+        else:
+            for program in ProgramList:
+                if program.category == category:
+                    program.install()
+
