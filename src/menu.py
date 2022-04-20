@@ -30,12 +30,12 @@ class Menu:
             compteur+=1
         return f"+{strRet}+"
 
-    def execute(self):
-        try:
-            userChoice = int(input("que voulez vous faire ? :"))
-        except:
-            execute()
-        self.execute(userChoice)
-
     def execute(self, userChoice):
-        self.components[userChoice].execute()
+        if(userChoice == -1 or self.components.length >= userChoice):
+            try:
+                userChoice = int(input("que voulez vous faire ? :"))
+            except:
+                self.execute(-1)
+            self.execute(userChoice)
+        else:
+            self.components[userChoice].execute()
