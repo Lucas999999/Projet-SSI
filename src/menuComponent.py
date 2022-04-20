@@ -14,4 +14,5 @@ class MenuComponent:
     
     def execute(self):
         print(type(self.action) == types.functionType )
+        print(self.action(self.name))
         # self.action()
