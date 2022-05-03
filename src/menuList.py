@@ -11,4 +11,4 @@ class MenuList:
     MenuComponent("Vérifier", testMenu, "Vérifications"),
     MenuComponent("Quitter", testMenu, "Quitter")])
 
-    InstallMenu = Menu("INSTALLER", [MenuComponent("Tout", ProgramList.installAll)]
+    # InstallMenu = Menu("INSTALLER", [MenuComponent("Tout", ProgramList.installAll)]
