@@ -1,6 +1,6 @@
 # Projet-SSI
 
-Notre projet ayant pour but de créer une kali like avec outils de rapports.
+Notre projet ayant pour but de créer une kali like avec des outils de rapports qui sont utilisé le plus en cybersécurité.
 
 - Pour pouvoir telecharger la VM Mltools : https://1fichier.com/?3bbomyplo5wjvgokshiq
 
