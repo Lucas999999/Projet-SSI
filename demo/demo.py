@@ -8,7 +8,7 @@ print("""+-----MENU-----+
 +--------------+
     """)
 input("Que voulez vous faire? : ")
-os.system('cls')
+os.system('clear')
 print("""
 +------INSTALLER------+
 |TOUT                0|
@@ -27,7 +27,7 @@ print("""
 +---------------------+
 """)
 input("Que voulez vous faire? : ")
-os.system('cls')
+os.system('clear')
 print("""
 +------INSTALLER------+
 | Maintien de l'accès |
@@ -47,7 +47,7 @@ print("""
 +---------------------+
 """)
 input("Que voulez vous faire? : ")
-os.system('cls')
+os.system('clear')
 sleep(0.5)
 print("[\33[32m+\033[0m] dbd : Installation réussie")
 sleep(0.5)
@@ -71,7 +71,7 @@ print("[\33[32m+\033[0m] proxytunnel : Installation réussie")
 sleep(0.5)
 print("[\33[32m+\033[0m] mimikatz : Installation réussie")
 sleep(0.5)
-os.system('cls')
+os.system('clear')
 print("""+-----MENU-----+
 |Installer    0|
 |Désinstaller 1|
@@ -80,7 +80,7 @@ print("""+-----MENU-----+
 +--------------+
     """)
 input("Que voulez vous faire? : ")
-os.system('cls')
+os.system('clear')
 print("""
 +------VERIFIER-------+
 |TOUT                0|
@@ -99,7 +99,7 @@ print("""
 +---------------------+
 """)
 input("Que voulez vous faire? : ")
-os.system('cls')
+os.system('clear')
 print("""
 +------VERIFIER-------+
 |     Mots de passe   |
@@ -113,7 +113,7 @@ print("""
 +---------------------+
 """)
 input("Que voulez vous faire? : ")
-os.system('cls')
+os.system('clear')
 sleep(0.25)
 print("[\33[31m-\033[0m] John : Pas installé")
 sleep(0.25)
@@ -125,7 +125,7 @@ print("[\33[32m+\033[0m] Hashcat : Installé")
 sleep(0.25)
 print("[\33[32m+\033[0m] Patator : Installé")
 sleep(2)
-os.system('cls')
+os.system('clear')
 print("""+-----MENU-----+
 |Installer    0|
 |Désinstaller 1|
@@ -134,4 +134,4 @@ print("""+-----MENU-----+
 +--------------+
     """)
 input("Que voulez vous faire? : ")
-os.system('cls')
+os.system('clear')
