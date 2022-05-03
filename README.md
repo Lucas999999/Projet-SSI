@@ -1,6 +1,11 @@
 # Projet-SSI
-Notre projet ayant pour but de créer une kali like avec outils de rapports.
+
+Notre projet ayant pour but de créer une kali like avec des outils de rapports qui sont utilisé le plus en cybersécurité.
+
+- Pour pouvoir telecharger la VM Mltools : https://1fichier.com/?3bbomyplo5wjvgokshiq
+
 # Cahier des charges
+
 - Nom du projet
   - propositions :
     - MDL Tool
@@ -17,16 +22,16 @@ Notre projet ayant pour but de créer une kali like avec outils de rapports.
   - Github
 - Liste des étapes à atteindre :
   - Outil gestion de projet
-    - https://trello.com  ?
+    - https://trello.com ?
   - Voir quels outils installer etc…
   - Propositions :
-    - exemple :  https://websetnet.net/fr/21-meilleurs-outils-Linux-kali-pour-le-piratage-et-les-tests-d%27intrusion/
+    - exemple : https://websetnet.net/fr/21-meilleurs-outils-Linux-kali-pour-le-piratage-et-les-tests-d%27intrusion/
   - En faire des scripts d’installation
   - Avoir un environnement de travail avec les outils souhaités, en partant d’une [debian(10/11?), Rocky, ubuntu, etc ]
   - En faire une ISO
   - Docker ?
   - Outils de Rapports (faraday-like)
-  - Outils d’édition de texte 
+  - Outils d’édition de texte
     - cherrytree
     - markdown to pdf ?
   - Set-up de favoris sur Firefox pour outils en ligne
